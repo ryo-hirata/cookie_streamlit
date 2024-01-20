@@ -1,0 +1,21 @@
+# Ignore Python byte-compiled files
+__pycache__/
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Add other patterns as needed
+この例では、__pycache__/ ディレクトリ、.vscode/ ディレクトリ、システムごとのファイル（.DS_Store や Thumbs.db）などが無視されるようになります。
+
+.gitignore ファイルを保存して閉じます。
+これで、これらのファイルやディレクトリはGitのトラッキングから除外され、コミットに含まれなくなります。.gitignore ファイル自体はコミットに含めて、他の開発者と共有することが良い慣習です。
+
+
+
+
+
+
