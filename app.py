@@ -7,7 +7,7 @@ import base64
 
 # 画像をアップロードして予測を取得する関数
 def get_prediction(file, anomaly_score_threshold):
-    url = "http://127.0.0.1:8000/predict"
+    url = "http://0.0.0.0:8000/predict"
 
     # ファイルを BytesIO に変換
     file_bytes = BytesIO(file.getvalue())
