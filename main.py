@@ -110,3 +110,7 @@ async def predict(file: UploadFile = File(...)):
 
     # Return JSON response
     return JSONResponse(content=content)
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
